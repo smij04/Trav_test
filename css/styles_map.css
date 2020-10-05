@@ -1,0 +1,58 @@
+.map {
+    width: 850px;
+    height: 850px;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+table {
+    text-align: center;
+    border: 1px black;
+    border: ridge;
+    border-collapse: collapse;
+  }
+
+td {
+    position: relative;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50px;
+    height: 50px;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+}
+
+.img-bonus {
+    width: 18px;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+.span_class {
+    width: 40px;
+    position: absolute;
+    bottom: 2px;
+    left: 5px;
+    background: white;
+    
+    font-size: 11;
+    color: black;
+    padding: 0px ;
+    text-align: center;
+    border-radius: 5px;
+
+    opacity: 0;
+    transition: 0.1s opacity;
+}
+
+td:hover > .span_class {
+    opacity: 0.8;
+}

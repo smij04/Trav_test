@@ -1,0 +1,191 @@
+.menu_block {
+    display: block;
+    margin: auto;
+    width: 400px;
+}
+
+.menu {
+    display: flex;
+    flex-basis: 50%;
+}
+
+.menu a{
+    margin: auto;
+    text-align: center;
+    width: 100px;
+    height: 60px;
+}
+
+.img_map {
+    content: url('../assets/menu/menu_map.png');
+    width: 70;
+    height: 70;
+}
+
+.img_map:hover {
+    content: url('../assets/menu/menu_map_hover.png');
+    width: 70;
+    height: 70;
+}
+
+.img_fields {
+    content: url('../assets/menu/menu_fields.png');
+    width: 70;
+    height: 70;
+}
+
+.img_fields:hover {
+    content: url('../assets/menu/menu_fields_hover.png');
+    width: 70;
+    height: 70;
+}
+
+.img_village {
+    content: url('../assets/menu/menu_village.png');
+    width: 70;
+    height: 70;
+}
+
+.img_village:hover {
+    content: url('../assets/menu/menu_village_hover.png');
+    width: 70;
+    height: 70;
+}
+
+.img_scoreboard {
+    content: url('../assets/menu/menu_scoreboard.png');
+    width: 70;
+    height: 70;
+}
+
+.img_scoreboard:hover {
+    content: url('../assets/menu/menu_scoreboard_hover.png');
+    width: 70;
+    height: 70;
+}
+
+.res_block {
+    display: block;
+    margin: auto;
+    width: 500px;
+}
+
+.res_pad {
+    padding-top: 7px;
+    padding-bottom: 3px;
+}
+
+
+.resources {
+    /* background-color: green; */
+    display: flex;
+    /* flex-basis: 35%; */
+    /* width: 400px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.wood{
+    /* background-color: green; */
+    margin: auto;
+    text-align: center;
+    width: 100px;
+    height: 60px;
+}
+
+.clay{
+    /* background-color: brown; */
+    margin: auto;
+    text-align: center;
+    width: 100px;
+    height: 60px;
+}
+
+.iron{
+    /* background-color: grey; */
+    margin: auto;
+    text-align: center;
+    width: 100px;
+    height: 60px;
+}
+
+.wheat{
+    /* background-color: orange; */
+    margin: auto;
+    text-align: center;
+    width: 100px;
+    height: 60px;
+}
+
+.wrapper {
+    width: 820px;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 2%;
+}
+
+
+
+.fields_wrapper{
+    width: 550px;
+    height: 550px;
+    float:left; 
+    border: 1px solid red;
+    vertical-align: middle;
+}
+
+.fields_map {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.field{
+
+}
+
+.production_wrapper {
+    /* border: 1px solid green; */
+    float: right;
+    /* overflow: hidden; */
+    width: 250;
+    height: 550;
+}
+
+.production {
+    /* border: 1px solid rgb(21, 107, 156); */
+    position: relative;
+    margin: auto;
+    top: 15%;
+    height: 200px;
+}
+
+.production p {
+    margin: 5;
+    font-size: 18px;
+}
+.production h2 {
+    text-align: center;
+    margin: 10;
+    /* padding-bottom: 15px; */
+    
+}
+
+.prod_wood {
+    margin: auto;
+    text-align: center;
+}
+
+.prod_clay {
+    margin: auto;
+    text-align: center;
+}
+
+.prod_iron {
+    margin: auto;
+    text-align: center;
+}
+
+.prod_wheat {
+    margin: auto;
+    text-align: center;
+}
